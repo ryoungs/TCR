@@ -1,17 +1,45 @@
 *{
     margin: 20;
-    padding: 0;
+    padding: 10;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-.bgcollage {
-    background-color: #074f57;
+/* =======header========*/
+.background-img {
+    background-color: #fff;
     background-image: url("../media/crCollage.png");
     color: white;
-    padding-top: 50px;
+    text-align: center;
+    padding-left: 2px;
+    padding-top: 10px;
     padding-bottom: 50px;
-    font-size: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.container {
+  margin: 20px;
+  width: 100px;
+}
+.navigation {
+  width: 100px;
+  overflow: hidden;
+  background-color: white;
+}
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
@@ -20,7 +48,7 @@
   }
   
   #myImg:hover {
-    opacity: 0.7;
+    opacity: 0.9;
   }
   
   .modal {
@@ -114,6 +142,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 30px;
+    padding: 10px;
 }
 .gallery img{
     width: 100%; 
