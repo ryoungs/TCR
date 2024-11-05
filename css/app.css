@@ -1,6 +1,6 @@
 /* off-screen-menu */
 .off-screen-menu {
-    background-color:  black;
+    background-color:  rgba(255, 127, 80, 0.701);
     height: 20vh;
     width: 100%;
     max-width: 150px;
@@ -21,7 +21,7 @@
 /* nav */
 nav {
     padding: 1rem;
-    background-color: rgb(0,0,0,.1);
+    background-color: rgba(245, 245, 245, 0.1);
 }
 
 /* ham menu */
