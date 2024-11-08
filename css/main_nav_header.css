@@ -1,0 +1,93 @@
+
+body {
+    background-color: white; /* use black for design, white for publish*/
+}
+a {
+    cursor: pointer;  /* Recover pointer from reset.css*/
+}
+/* ================Background Image and Title Text ============*/
+.bg {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    background-image: url("../media/crCollage.png");
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+/*================Header with Logo, Nav and Social Media Links ======*/
+.nav-header-main {
+    width: 100%;
+    height: 60px;
+    /* background-color: #fff;  use color in design then delete*/
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    /* background-color: #red;  use color in design then delete*/
+    padding-left: 30px;
+    display: flex;
+}
+.header-main-logo img {
+    height: 50px;
+    align-self: center;
+}
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+   /* background-color: #oragne;  use color in design then delete*/
+}
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+}
+.header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: Arial;
+    color: white;
+    line-height: 60px;
+}
+.header-main-sm {
+    width: fit-content;
+    height: 100%;
+     /*  background-color: #606172; use color in design then delete*/
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../media/fb_square_blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(../media/ig_round_blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-tw {
+    width: 20px;
+    height: 20px;
+    background-image: url(../media/tw_square_blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*================Header with Logo, Nav and Social Media Links ======*/
