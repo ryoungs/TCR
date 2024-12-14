@@ -1,0 +1,54 @@
+/*===== Modal Button for Cat Quote */
+
+
+#openModal {
+  top: 25%;
+  left: 40%;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(57, 227, 213);
+  font-weight: 800;
+  font-style: italic;
+  border-radius: 8px;
+}
+.modal {
+    background-color: rgba(178, 122, 32, 0.3);
+    opacity: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal.open {
+    opacity: 1;
+    z-index: 2;
+    background: orange;
+  }
+  
+  .modal-inner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+  }
+  
+  .modal-inner h2 {
+    margin: 0;
+  }
+  
+  .modal-inner p {
+    line-height: 16px;
+    margin: 10px 0;
+  }
